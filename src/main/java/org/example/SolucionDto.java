@@ -1,3 +1,5 @@
+package org.example;
+
 public class SolucionDto {
     private Double Z;
     private Integer X1;
@@ -35,7 +37,7 @@ public class SolucionDto {
 
     @Override
     public String toString() {
-        return "SolucionDto{" +
+        return "src.SolucionDto{" +
                 "Z=" + Z +
                 ", X1=" + X1 +
                 ", X2=" + X2 +

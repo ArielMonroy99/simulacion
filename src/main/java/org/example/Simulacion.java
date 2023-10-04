@@ -1,15 +1,10 @@
+package org.example;
+
+import javax.swing.*;
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Simulacion {
-    public static void main (String[] args){
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Ingrese el numero de iteraciones");
-        int nmi = sc.nextInt();
-        SolucionDto solution = obtenerSolucion(nmi);
-        System.out.println(solution.toString());
-        sc.close();
-    }
     public static SolucionDto obtenerSolucion(int nmi){
         int x1= 0,x2=0;
         int aux1,aux2;
